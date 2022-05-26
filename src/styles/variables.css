@@ -1,0 +1,8 @@
+html,
+.dark-mode {
+  --color-highlight: #ff34a4;
+  --color-secondary: #596dff;
+  --color-primary: #00a4c8;
+  --color-background: #2c2a30;
+  --color-text: #e6e6e6;
+}

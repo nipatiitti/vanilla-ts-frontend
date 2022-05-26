@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;400;700&display=swap');
+
+@import url('./reset.css');
+@import url('./variables.css');
+
+html {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: var(--color-text);
+  font-family: 'Spline Sans Mono', monospace;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-highlight);
+}
